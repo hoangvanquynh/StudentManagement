@@ -36,4 +36,8 @@ public class StudentController {
 		studentService.save(student);
 		return "redirect:/";
 	}
+	
+	public String edit() {
+		return null;
+	}
 }
