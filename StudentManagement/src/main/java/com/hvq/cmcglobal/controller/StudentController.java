@@ -36,4 +36,9 @@ public class StudentController {
 		studentService.save(student);
 		return "redirect:/";
 	}
+	
+	@GetMapping("edit")
+	public String edit() {
+		return null;
+	}
 }
